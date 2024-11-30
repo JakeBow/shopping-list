@@ -1,55 +1,64 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="24.8.3">
   <diagram name="Page-1" id="Opi6yfHFrTk5xfn9i_nC">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="115" y="8" width="95" height="49" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-15" value="&lt;font face=&quot;Helvetica&quot;&gt;Start&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="40" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Declare variables" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="86" y="107" width="154" height="49" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-16" target="-faxNOMFN7SnVPiGHTTS-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Condition" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="104" y="206" width="118" height="118" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-16" value="Declare tempList[length]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="270" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Process data" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="27" y="397" width="119" height="49" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#B85450;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-26" target="-faxNOMFN7SnVPiGHTTS-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Display result" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="496" width="157" height="49" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-26" target="-faxNOMFN7SnVPiGHTTS-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="196" y="397" width="86" height="49" as="geometry" />
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-26" value="Length &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="180" width="106" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-35" target="-faxNOMFN7SnVPiGHTTS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-35" value="Ask user to input temperature of each element in tempList[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="330" width="136" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-38" target="-faxNOMFN7SnVPiGHTTS-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-38" target="-faxNOMFN7SnVPiGHTTS-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-38" value="Valid input?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="420" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-41">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="414" y="579.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-41" value="&lt;div&gt;Print tempList[] and average temperature&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="510" width="124" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-43" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="387" y="569.5" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-15" target="-faxNOMFN7SnVPiGHTTS-22">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="414" y="70" as="sourcePoint" />
+            <mxPoint x="620" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="True" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="86" y="360" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-faxNOMFN7SnVPiGHTTS-22" target="-faxNOMFN7SnVPiGHTTS-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="5" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="False" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="4" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="239" y="360" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-faxNOMFN7SnVPiGHTTS-22" value="Ask user to input length of tempList[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="110" width="159" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
