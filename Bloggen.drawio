@@ -38,16 +38,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gozU1Z4TzMXtubI0LWsz-11" value="Skriv nytt blogginlägg" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="371" y="250" width="80" height="50" as="geometry" />
+          <mxGeometry x="80" y="260" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gozU1Z4TzMXtubI0LWsz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gozU1Z4TzMXtubI0LWsz-12" target="gozU1Z4TzMXtubI0LWsz-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gozU1Z4TzMXtubI0LWsz-12" value="Läs in titel" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="351" y="340" width="120" height="30" as="geometry" />
+          <mxGeometry x="60" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gozU1Z4TzMXtubI0LWsz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gozU1Z4TzMXtubI0LWsz-17" target="gozU1Z4TzMXtubI0LWsz-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gozU1Z4TzMXtubI0LWsz-17" value="Läs in brödtext" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="351" y="410" width="120" height="30" as="geometry" />
+          <mxGeometry x="60" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gozU1Z4TzMXtubI0LWsz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gozU1Z4TzMXtubI0LWsz-19" target="gozU1Z4TzMXtubI0LWsz-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gozU1Z4TzMXtubI0LWsz-19" value="Spara datum för inlägget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72" y="490" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gozU1Z4TzMXtubI0LWsz-21" value="Spara inlägget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="75.75" y="570" width="88.5" height="24.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
