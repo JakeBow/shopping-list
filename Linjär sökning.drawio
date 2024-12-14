@@ -17,7 +17,7 @@
           <mxGeometry x="345" y="220" width="119" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x7RqncecBhT4SDe1gUMY-2" value="* Utgår från &lt;font color=&quot;#00cc00&quot;&gt;[inläggslistan]&lt;/font&gt; i programmet *" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="161" y="140" width="150" height="30" as="geometry" />
+          <mxGeometry x="136.5" y="47.75" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x7RqncecBhT4SDe1gUMY-26" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="x7RqncecBhT4SDe1gUMY-3">
           <mxGeometry relative="1" as="geometry">
