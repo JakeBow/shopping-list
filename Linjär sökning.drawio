@@ -46,7 +46,7 @@
             <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x7RqncecBhT4SDe1gUMY-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Sökträff hittad&amp;nbsp;&lt;/div&gt;&lt;div&gt;vid index &quot;i&quot; i&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00cc00&quot;&gt;[inläggslistan]&lt;/font&gt;?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="x7RqncecBhT4SDe1gUMY-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Matchar&lt;/div&gt;&lt;div style=&quot;padding-top: 0px; padding-bottom: 0px; margin-bottom: 0px;&quot;&gt;&lt;font color=&quot;#004c99&quot;&gt;[sökordet]&lt;/font&gt; titeln &lt;br&gt;&lt;/div&gt;&lt;div&gt;vid index &quot;i&quot; i&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#00cc00&quot;&gt;[inläggslistan]&lt;/font&gt;?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="480" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="x7RqncecBhT4SDe1gUMY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="x7RqncecBhT4SDe1gUMY-5" target="x7RqncecBhT4SDe1gUMY-4">
