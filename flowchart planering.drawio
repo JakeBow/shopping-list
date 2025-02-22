@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 GLS/100.10.9939.100" version="26.0.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1302" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lyssna efter anslutningar från klientprogrammet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lyssna efter anslutningar från ett klientprogram" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="336" y="160" width="156" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PhORoOJdLnTvGLsBMIIu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PhORoOJdLnTvGLsBMIIu-1" target="WIyWlLk6GJQsqaUBKTNV-3">
@@ -35,7 +35,7 @@
         </mxCell>
         <mxCell id="PhORoOJdLnTvGLsBMIIu-18" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhORoOJdLnTvGLsBMIIu-16">
           <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-3" as="offset" />
+            <mxPoint x="-2" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PhORoOJdLnTvGLsBMIIu-3" value="&lt;div&gt;Anslutning&lt;/div&gt;&lt;div&gt;hittad?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -104,8 +104,28 @@
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PhORoOJdLnTvGLsBMIIu-37" target="PhORoOJdLnTvGLsBMIIu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-44" value="JA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PhORoOJdLnTvGLsBMIIu-43">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PhORoOJdLnTvGLsBMIIu-37" value="&lt;div&gt;Är kortet&lt;/div&gt;&lt;div&gt;registrerat i databasen?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="352.5" y="690" width="124" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PhORoOJdLnTvGLsBMIIu-42" target="PhORoOJdLnTvGLsBMIIu-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-42" value="Välj en av de fyra belöningarna slumpmässigt" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="358" y="820" width="113" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PhORoOJdLnTvGLsBMIIu-45" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PhORoOJdLnTvGLsBMIIu-45" value="Skicka ett gratulationsmeddelande till klientprogrammet" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="163" y="820" width="140" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
